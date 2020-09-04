@@ -9,9 +9,9 @@
 
 {%block body%}
 <form action="/posts/edit/{{editor.id}}" method="POST">
-    Title: <input type="text" name="title" id="title"><br>
-    Post: <input type="text" name="content" id="content"><br>
+    Title:  <input type="text" name="title" id="title" default=''><br>
     Author: <input type="text" name="author" id="author"><br>
+    Post:   <input type="text" name="content" id="content"><br>
     <input type="submit" value="save"><br>
     
 </form>
